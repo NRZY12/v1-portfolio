@@ -9,3 +9,4 @@ NORMAN PORTFOLIO AKA. ABDENNOR EL KHASSAM
 
 
 
+Remove the unwanted css attr

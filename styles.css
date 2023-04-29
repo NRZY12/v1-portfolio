@@ -4,38 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono&family=Tilt+Warp&display=swap');
 
-/* ::-webkit-scrollbar {
-    width: 2em;
-}
-
-::-webkit-scrollbar-track {
-    background: hsl(120, 75%, 50% / 1);
-} */
-
-    /* CUSTOM PROPERTIES / VARIABLES  */
-/* :root {
-    
-    --light-background-color: #F0ECE3;
-    --light-background: #DFD3C3;
-    --light-text-color: #52616B;
-    --light-black: #1E2022;
-    --light-color1: #596E79;
-    --light-color2: #788e98;
-    --light-color3: #F0F5F9;
-    --light-color4: #788189;
-    --other-color: #679B9B;
-
-    
-    --dark-background: #13005A;
-    --dark-background-color: #00337C;
-    --dark-text-color: #FDEBED;
-    --dark-color1: #03C988;
-    --dark-color2: #ebfef5;
-    --dark-color3: #a1f9d0;
-    --dark-color4: #004cd7;
-    --dark-color5: #00337C;
-} */
-
 :root {
     --scrollbar-background-color: #909090;
     --scrollbar-hover-color: #606060;
