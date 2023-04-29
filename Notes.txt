@@ -1,0 +1,11 @@
+
+
+
+NORMAN PORTFOLIO AKA. ABDENNOR EL KHASSAM
+
+
+- Add languages logos and a title for the section, to the About Me section
+- Projects section, will have a wider Projects each one in own line with radius of 5px.
+
+
+
