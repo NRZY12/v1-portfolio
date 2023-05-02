@@ -815,6 +815,7 @@ footer > p {
 }
 
 @media (max-width: 1280px) {
+
     .circle, .oval, .square, .triangle-down {
         width: 200px;
         height: 200px;
@@ -1024,7 +1025,7 @@ footer > p {
     }
 
     .nav-right li {
-        margin-top: 40px;
+        margin: 40px 0 0 0;
     }
 
     .nav-right li a {
@@ -1032,7 +1033,23 @@ footer > p {
     }
 
     .switch {
-        margin-top: 40px;
+        margin: 40px 0 0 0;
+    }
+
+    .dark-mode-icon {
+        display: flex;
+        position: absolute;
+        top: 57%;
+        left: 34%;
+        margin: 0 10px 0 10px;
+    }
+
+    .light-mode-icon {
+        display: flex;
+        position: absolute;
+        top: 57%;
+        left: 58%;
+        margin: 0 10px 0 10px;
     }
 
     .open-menu, .close-menu {
@@ -1052,7 +1069,7 @@ footer > p {
         left: 08%;
         height: 1050px;
         /* width: 500px; */
-        margin-right: 60px;
+        margin: 0 60px 0 0;
         position: absolute;
         border-radius: 4px;
         background-image: linear-gradient(50deg, var(--light-background-color) 0%, var(--light-color4) 180%);
