@@ -405,6 +405,11 @@ input:checked + .slider:before {
     font-size: 4rem;
 }
 
+.line-break-p::after {
+    content: "\a";
+    display: block;
+    margin: 0 0 10px 0;
+}
         /* END WELCOME SECTION  */
 
         /* SHAPES IN WELCOME SECTION  */
