@@ -1,11 +1,6 @@
 <div align="center">
-  <img class="logo" alt="Logo" src="https://imgur.com/a/2Df422R" width="100" />
+  <img class="logo" alt="Logo" src="https://i.imgur.com/94xGUE3.png" width="100" style="border-radius:50%" />
 </div>
-<style>
-.logo {
-	border-radius: 50%;
-}
-</style>
 <h1 align="center">
   abdennor.vercel.app - v1
 </h1>
@@ -17,7 +12,8 @@
   <a href="https://github.com/NRZ12/v1-portfolio" target="_blank">v1</a>,
 </p>
 
-![demo](https://imgur.com/a/SeeCJO4)
+![demo](https://i.imgur.com/psYKDnj.png)
+![demo](https://i.imgur.com/KTgS7qe.png)
 
 ## 🎨 Color Reference
 
