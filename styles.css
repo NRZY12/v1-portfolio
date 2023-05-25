@@ -330,7 +330,6 @@ img {
     left: 4px;
     bottom: 4px;
     background-color: var(--light-text-color);
-    -webkit-transition: .4s;
     transition: .4s;
 }
   
@@ -357,9 +356,23 @@ input:checked + .slider:before {
     border-radius: 50%;
 }
 
-.dark-mode-icon, .light-mode-icon {
-    color: var(--light-black2);
-    margin: 0 10px;
+.dark-mode-icon {
+    position: absolute;
+    top: 14%;
+    left: 10%;
+    color: var(--light-text-color);
+    pointer-events: none;
+    cursor: default;
+    z-index: 11;
+}
+
+.light-mode-icon {
+    position: absolute;
+    top: 14%;
+    left: 60%;
+    color: var(--light-text-color);
+    pointer-events: none;
+    cursor: default;
 }
 
         /* END NAVBAR  */
@@ -542,6 +555,8 @@ input:checked + .slider:before {
 }
 
 .project {
+    height: 50vh;
+    width: 100%;
     background: var(--light-background);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 4px;
@@ -551,6 +566,12 @@ input:checked + .slider:before {
     height: calc(60% - 6.8rem);
     width: 100%;
     object-fit: cover;
+    object-position: top;
+    transition: 8s all ease;
+}
+
+.project-image:hover {
+    object-position: bottom;
 }
 
 .code {
@@ -1043,16 +1064,16 @@ footer > p {
     .dark-mode-icon {
         display: flex;
         position: absolute;
-        top: 57%;
-        left: 34%;
+        top: 27%;
+        left: 04%;
         margin: 0 10px 0 10px;
     }
 
     .light-mode-icon {
         display: flex;
         position: absolute;
-        top: 57%;
-        left: 58%;
+        top: 27%;
+        left: 47%;
         margin: 0 10px 0 10px;
     }
 
